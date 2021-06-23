@@ -11,7 +11,7 @@ const Form = ({ showWeather, error }) => {
                     onSubmit={showWeather}
                     >
                     <input id="name" className="input-reset ba br4 b--black-20 pa2 mb2 db w-100" type="text" aria-describedby="name-desc" placeholder="Enter City" />
-                    <button className='f6 grow no-underline br-pill pv2 mb2 dib white bg-blue buttn'>Get Weather</button>
+                    <button className='f6 grow no-underline br-pill mb2 dib white bg-blue buttn'>Get Weather</button>
                 </form>
             </div>
         </div>
