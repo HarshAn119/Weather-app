@@ -67,7 +67,7 @@ class App extends React.Component {
     const city = event.target[0].value;
     if(city){
       try{
-        const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_key}`);
+        const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${API_key}`);
         const response = await api_call.json();
 
         this.get_weatherIcon(response.weather[0].id);
